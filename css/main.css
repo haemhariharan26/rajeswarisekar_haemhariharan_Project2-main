@@ -1,0 +1,199 @@
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Features
+    6. Footer
+
+*/
+
+/* 1. ---General Styles--- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Lato:ital,wght@0,700;1,300;1,400&family=Poppins:wght@100;300&display=swap');
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 1200PX;
+    margin: 0 auto;
+}
+
+.box-color {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.box-color2 {
+    background-color: #AEAEAE;
+    color: white;
+    text-align: center;
+}
+
+
+.grid {
+    display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-template-columns: repeat(12, 70px);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+
+
+/* 3. ---Header--- */
+
+#main-header {
+    margin-top: 40px;
+
+}
+#header-logo {
+    height: 97px;
+    width: 270px;
+    grid-column: 1/4;
+}
+
+#header-nav {
+    height: 97px;
+    grid-column: 7/-1;
+}
+
+#image-placeholder {
+    width: 1170px;
+    height: 439px;
+    grid-column: 1/13;
+    margin-top: 40px;
+}
+
+#offer-con h2{
+    font-size: 24px;
+    grid-column: 5/9;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+#offer-con2 h2 {
+    font-size: 24px;
+    grid-column: 1/4;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.feature1 {
+    margin-top: 0;
+    float: left;
+    width: 340px;
+    height: 203px;
+    grid-column: 1/4;
+}
+
+.feature2 {
+    float: left;
+    width: 340px;
+    height: 203px;
+    grid-column: 5/8;
+}
+
+.feature3 {
+    float: left;
+    width: 340px;
+    height: 203px;
+    grid-column: 9/12;
+}
+
+.feature-product1 {
+    width: 340px;
+    height: 400px;
+    grid-column: 1/4;
+    margin-top: 0px;
+}
+
+.feature-product2 {
+    width: 340px;
+    height: 400px;
+    grid-column: 5/8;
+    margin-top: 0px;
+}
+
+.feature-product3 {
+    width: 340px;
+    height: 400px;
+    grid-column: 9/12;
+    margin-top: 0px;
+}
+
+.feature-product4 {
+    width: 340px;
+    height: 400px;
+    grid-column:1/4;
+    margin-top: 50px;
+}
+
+.feature-product5 {
+    width: 340px;
+    height: 400px;
+    grid-column: 5/8;
+    margin-top: 50px;
+}
+
+.feature-product6 {
+    width: 340px;
+    height: 400px;
+    grid-column: 9/12;
+    margin-top: 50px;
+}
+
+#client h2 {
+    margin-top: 50px;
+    text-align: center;
+    grid-column: 5/9;
+    margin-bottom: 0;
+}
+
+.testimonial {
+   margin-top: 0;
+    height: 400px;
+    grid-column: 1/13;
+}
+
+#image-placeholder2 {
+    height: 260px;
+    grid-column: 1/13;
+    margin-top: 60px;
+}
+
+.footer-con {
+    height: 160px;
+    grid-column: 1/13;
+}
+
+.box1 {
+    width: 170px;
+    height: 70px;
+    margin-top: 45px;
+    grid-column: 2/4;
+}
+
+/* .nav-bar {
+    display: inline;
+} */
+
+.nav-bar {
+    grid-column: 6/12;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+/* 4. ---Main Hero Image--- */
+
