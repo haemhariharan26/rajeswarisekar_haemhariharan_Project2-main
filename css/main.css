@@ -72,7 +72,7 @@ body {
 #image-placeholder {
     width: 1170px;
     height: 439px;
-    grid-column: 1/13;
+    grid-column: 1/12;
     margin-top: 40px;
 }
 
@@ -179,7 +179,7 @@ body {
 
 .footer-con {
     height: 160px;
-    grid-column: 1/13;
+    grid-column: 1/12;
 }
 
 .box1 {
