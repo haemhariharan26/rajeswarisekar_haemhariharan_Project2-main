@@ -15,8 +15,9 @@
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Lato:ital,wght@0,700;1,300;1,400&family=Poppins:wght@100;200;300&display=swap');
-
+body {
+    font-family: 'Arimo', sans-serif;
+}
 
 
 .hidden {
