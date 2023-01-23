@@ -38,8 +38,8 @@
 }
 
 #header-nav{
-    grid-column: 5/6;
-    margin-left: 16px;
+    grid-column: 4/4;
+    margin-left: 1px;
     width: 50px;
     height: 60px;
     margin-top: 16px;
@@ -61,16 +61,16 @@
 }
 
 #image-placeholder {
-    width: 385px;
+    /* width: 385px; */
     height: 248px;
-    grid-column: 1/4;
+    grid-column: 1/-1;
     margin-top: 30px;
 }
 
 
 #offer-con h2{
     font-size: 20px;
-    grid-column: 1/6;
+    grid-column: 1/-1;
     text-align: center;
     margin-top: 35px;
     margin-bottom: 0;
@@ -80,67 +80,66 @@
 .feature1 {
     display: block;
     margin-top: 0;
-    width: 358px;
+    /* width: 358px; */
     height: 195px;
-    grid-column: 1/5;
+    grid-column: 1/-1;
 }
 
 #offer-con2 h2{
     font-size: 20px;
-    grid-column: 1/6;
+    grid-column: 1/-1;
     text-align: center;
     margin-top: 35px;
     margin-bottom: 0;
 }
 
 .feature-product1 {
-    width: 358px;
-    height: 400px;
-    grid-column: 1/4;
+    /* width: 358px; */
+    height: 390px;
+    grid-column: 1/-1;
     margin-top: 0px;
 }
 
 .feature-product2 {
-    width: 358px;
-    height: 400px;
-    grid-column: 1/4;
+    /* width: 358px; */
+    height: 390px;
+    grid-column: 1/-1;
     margin-top: 0px;
 }
 
 .feature-product3 {
-    width: 358px;
-    height: 400px;
-    grid-column: 1/4;
+    /* width: 358px; */
+    height: 390px;
+    grid-column: 1/-1;
     margin-top: 0px;
 }
 
 .testimonial {
-    width: 358px;
+    /* width: 358px; */
     margin-top: 0;
-     height: 128px;
-     grid-column: 1/13;
+     height: 129px;
+     grid-column: 1/-1;
  }
 
 #client h2 {   
     font-size: 20px;
-    grid-column: 1/6;
+    grid-column: 1/-1;
     text-align: center;
     margin-top: 35px;
     margin-bottom: 0;
-    margin-left: 68px;
 }
 
 .footer-con {
     height: 58px;
-    grid-column: 1/4;
-    width: 358px;
+    grid-column: 1/-1;
+    /* width: 358px; */
 }
 
 .box1 {
     width: 68px;
     height: 26px;
     margin-top: 18px;
-    grid-column: 1/2;
+    grid-column: 1/-1;
 }
 
 /* .nav-bar {
@@ -149,7 +148,7 @@
 
 #image-placeholder2 {
     height: 85px;
-    grid-column: 1/6;
+    grid-column: 1/-1;
     margin-top: 60px;
 }
 
